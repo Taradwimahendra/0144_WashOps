@@ -19,7 +19,7 @@ WashOps merupakan sistem mandiri (self-contained product) yang dikembangkan untu
        *2.5 : Mengidentifikasi batasan teknis sistem, antara lain tidak menggunakan WhatsApp Business API berbayar (Android Intent) dan tidak menyimpan database lokal (Room DB)*
        *2.6 : Merencanakan dokumentasi pendukung penggunaan aplikasi seperti panduan operasional kasir dan `README.md` repositori*
        *2.7 : Menjelaskan ketergantungan eksternal, seperti ketersediaan jaringan internet saat transaksi, layanan Supabase aktif, serta izin penyimpanan internal untuk pembuatan berkas struk*
-- [ ] **Bab 3 — System Features**
+- [x] **Bab 3 — System Features**
       *Spesifikasi Kebutuhan Fungsional (`FR-01` – `FR-32`):** Menjabarkan *stimulus/response sequences* dan kebutuhan fungsional lengkap untuk 6 fitur utama
       (Autentikasi Kasir, Manajemen Katalog Layanan, Manajemen Data Pelanggan, Pencatatan & Pelacakan Pesanan, Pembayaran & Rekapitulasi Keuangan, serta Struk
       Digital & Automasi WhatsApp).
