@@ -19,9 +19,20 @@ WashOps merupakan sistem mandiri (self-contained product) yang dikembangkan untu
        *2.5 : Mengidentifikasi batasan teknis sistem, antara lain tidak menggunakan WhatsApp Business API berbayar (Android Intent) dan tidak menyimpan database lokal (Room DB)*
        *2.6 : Merencanakan dokumentasi pendukung penggunaan aplikasi seperti panduan operasional kasir dan `README.md` repositori*
        *2.7 : Menjelaskan ketergantungan eksternal, seperti ketersediaan jaringan internet saat transaksi, layanan Supabase aktif, serta izin penyimpanan internal untuk pembuatan berkas struk*
-- [ ] **Bab 3 — System Features** 
-- [ ] **Bab 4 — External Interface Requirements**
+- [ ] **Bab 3 — System Features**
+      *Spesifikasi Kebutuhan Fungsional (`FR-01` – `FR-32`):** Menjabarkan *stimulus/response sequences* dan kebutuhan fungsional lengkap untuk 6 fitur utama
+      (Autentikasi Kasir, Manajemen Katalog Layanan, Manajemen Data Pelanggan, Pencatatan & Pelacakan Pesanan, Pembayaran & Rekapitulasi Keuangan, serta Struk
+      Digital & Automasi WhatsApp).
+      *Pemodelan Alur Proses: Menyusun Activity Diagram (dengan swimlane `Kasir`, `Aplikasi WashOps`, `Supabase`) serta Flowchart untuk setiap fitur*
+      *Perancangan Basis Data: Merancang Entity Relationship Diagram (ERD) dan skema tabel relasional (RAT) pada PostgreSQL Supabase*
+
+- [x] **Bab 4 — External Interface Requirements**
+      *4.1 : Merancang spesifikasi antarmuka pengguna mobile berbasis Kotlin Jetpack Compose (halaman Login/Registrasi, Beranda, Katalog Layanan, Data Pelanggan, Form & Detail Pesanan, serta Rekapitulasi Keuangan)*
+      *4.2 : Menentukan kebutuhan antarmuka perangkat keras smartphone Android (layar sentuh, koneksi jaringan internet, dan media penyimpanan internal untuk berkas struk)*
+      *4.3 : Mendefinisikan integrasi perangkat lunak dengan REST API Backend (Node.js/Express), Supabase (Auth JWT & PostgreSQL), serta aplikasi WhatsApp via *Android Intent* (`wa.me` dan `FileProvider`)*
+      *4.4 : Menetapkan protokol komunikasi HTTP/HTTPS dengan pertukaran data format JSON serta otorisasi *Bearer Token* (JWT)*
 - [ ] **Bab 5 — Other Nonfunctional Requirements**
+
 - [ ] **Bab 6 — Other Requirements**
 
 ## Fitur Utama
